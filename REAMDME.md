@@ -5,12 +5,10 @@
 4. How to run the code
 
 ## General Info 
-----------------
 The assignment is to control a holonomic robot in 2d space 
 with a simple 2d simulator.
 
 ## Algorithm
--------------
 1. Set a random target in the interval [-6.0, 6.0]
 2. Check the distance between target and robot position
 3. IF distance is larger than 0.1 
@@ -19,8 +17,7 @@ with a simple 2d simulator.
 4. Else -> Go to step 1.
 
 ## Content of Package
-----------------------
-# Node
+### Node
 1. First node:	(assignment1)
 * ROS publisher: publishing the robot speed
 * ROS subscriber: subscribe for robot position
@@ -28,11 +25,10 @@ with a simple 2d simulator.
 2. Second node: (assignment1_srv)
 * ROS server: Service Server replys to the client with a random target
 
-# Custom Service
+### Custom Service
 1. Random_Target service: return two random positions between [-6.0, 6.0]
 
 ## How to run the code
------------------------
 1. Run the simulator
 	$ roscore &
 	$ rosrun stage_ros stageros $(rospack find assignment1)/world/exercise.world
@@ -46,5 +42,5 @@ with a simple 2d simulator.
 	$ rosrun assignment1 assignment1
 
 ## Link
-![Optional Text](../my_ros_ws/src/assignment1/myFolder/rosgraph.png)
+![Communication Graph](../master/myFolder/rosgraph.png)
 
