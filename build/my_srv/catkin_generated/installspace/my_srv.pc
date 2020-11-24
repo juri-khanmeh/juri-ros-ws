@@ -1,0 +1,8 @@
+prefix=/home/my_ros_ws/install
+
+Name: my_srv
+Description: Description of my_srv
+Version: 0.0.0
+Cflags: -I/home/my_ros_ws/install/include
+Libs: -L/home/my_ros_ws/install/lib 
+Requires: 
