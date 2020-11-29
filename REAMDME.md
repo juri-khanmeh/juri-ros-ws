@@ -35,14 +35,14 @@ with a simple 2d simulator.
 4. Build the packages 'catkin_make'
 5. Refresh 'rospack profile'
 6. Run the simulator
-$ roscore &
-$ rosrun stage_ros stageros $(rospack find assignment1)/world/exercise.world
+* $ roscore &
+* $ rosrun stage_ros stageros $(rospack find assignment1)/world/exercise.world
 
 7. Run the service node
-	$ rosrun assignment1_srv assignment1_srv
+* $ rosrun assignment1_srv assignment1_srv
 
 8. Run the First node 
-	$ rosrun assignment1 assignment1
+* $ rosrun assignment1 assignment1
 
 ## Link
 ![Communication Graph](../master/myFolder/rosgraph.png)
