@@ -5,7 +5,7 @@ Bundle-SymbolicName: org.ros.rosjava_messages.assignment1
 Bundle-Version: 0.0.0
 Bundle-Name: assignment1
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1605808400000
+Bnd-LastModified: 1606673563000
 Import-Package: org.ros.internal.message
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
 Created-By: 1.8.0_265 (Private Build)

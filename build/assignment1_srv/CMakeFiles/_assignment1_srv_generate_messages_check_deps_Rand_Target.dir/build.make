@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/my_ros_ws/src
+CMAKE_SOURCE_DIR = /home/juri_ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/my_ros_ws/build
+CMAKE_BINARY_DIR = /home/juri_ros_ws/build
 
 # Utility rule file for _assignment1_srv_generate_messages_check_deps_Rand_Target.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/my_ros_ws/build
 include assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/progress.make
 
 assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target:
-	cd /home/my_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py assignment1_srv /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv 
+	cd /home/juri_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py assignment1_srv /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv 
 
 _assignment1_srv_generate_messages_check_deps_Rand_Target: assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target
 _assignment1_srv_generate_messages_check_deps_Rand_Target: assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/build.make
@@ -67,10 +67,10 @@ assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Ta
 .PHONY : assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/build
 
 assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/clean:
-	cd /home/my_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/cmake_clean.cmake
+	cd /home/juri_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/cmake_clean.cmake
 .PHONY : assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/clean
 
 assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/depend:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/my_ros_ws/src /home/my_ros_ws/src/assignment1_srv /home/my_ros_ws/build /home/my_ros_ws/build/assignment1_srv /home/my_ros_ws/build/assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juri_ros_ws/src /home/juri_ros_ws/src/assignment1_srv /home/juri_ros_ws/build /home/juri_ros_ws/build/assignment1_srv /home/juri_ros_ws/build/assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/depend
 

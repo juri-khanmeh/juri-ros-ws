@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/my_ros_ws/src
+CMAKE_SOURCE_DIR = /home/juri_ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/my_ros_ws/build
+CMAKE_BINARY_DIR = /home/juri_ros_ws/build
 
 # Utility rule file for assignment1_srv_generate_messages_java_gradle.
 
@@ -54,15 +54,15 @@ CMAKE_BINARY_DIR = /home/my_ros_ws/build
 include assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/progress.make
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle: assignment1_srv/java/assignment1_srv/build.gradle
-assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle: /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling Java code for assignment1_srv"
-	cd /home/my_ros_ws/build/assignment1_srv/java/assignment1_srv && /home/my_ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genjava/cmake/../../../lib/genjava/genjava_gradle_project.py --compile -o /home/my_ros_ws/build/assignment1_srv/java -p assignment1_srv
+assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle: /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling Java code for assignment1_srv"
+	cd /home/juri_ros_ws/build/assignment1_srv/java/assignment1_srv && /home/juri_ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genjava/cmake/../../../lib/genjava/genjava_gradle_project.py --compile -o /home/juri_ros_ws/build/assignment1_srv/java -p assignment1_srv
 
 assignment1_srv/java/assignment1_srv/build.gradle: /opt/ros/kinetic/lib/genjava/genjava_gradle_project.py
-assignment1_srv/java/assignment1_srv/build.gradle: /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Java gradle project from assignment1_srv"
-	cd /home/my_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genjava/cmake/../../../lib/genjava/genjava_gradle_project.py -o /home/my_ros_ws/build/assignment1_srv/java -p assignment1_srv
-	cd /home/my_ros_ws/build/assignment1_srv && touch /home/my_ros_ws/build/assignment1_srv/java/assignment1_srv/droppings
+assignment1_srv/java/assignment1_srv/build.gradle: /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Java gradle project from assignment1_srv"
+	cd /home/juri_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genjava/cmake/../../../lib/genjava/genjava_gradle_project.py -o /home/juri_ros_ws/build/assignment1_srv/java -p assignment1_srv
+	cd /home/juri_ros_ws/build/assignment1_srv && touch /home/juri_ros_ws/build/assignment1_srv/java/assignment1_srv/droppings
 
 assignment1_srv_generate_messages_java_gradle: assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle
 assignment1_srv_generate_messages_java_gradle: assignment1_srv/java/assignment1_srv/build.gradle
@@ -76,10 +76,10 @@ assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/bui
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/build
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/clean:
-	cd /home/my_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/cmake_clean.cmake
+	cd /home/juri_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/cmake_clean.cmake
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/clean
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/depend:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/my_ros_ws/src /home/my_ros_ws/src/assignment1_srv /home/my_ros_ws/build /home/my_ros_ws/build/assignment1_srv /home/my_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juri_ros_ws/src /home/juri_ros_ws/src/assignment1_srv /home/juri_ros_ws/build /home/juri_ros_ws/build/assignment1_srv /home/juri_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/depend
 

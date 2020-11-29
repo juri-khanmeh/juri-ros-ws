@@ -29,16 +29,19 @@ with a simple 2d simulator.
 1. Random_Target service: return two random positions between [-6.0, 6.0]
 
 ## How to run the code
-1. Run the simulator
+1. After git clone, move repository to /home/
+2. Add the line 'source /home/juri_rose_ws/devel/setup.bash' in your .bashrc file.
+3. Change the directory to the workspace /home/juri_rose_ws/
+4. Build the packages 'catkin_make'
+5. Refresh 'rospack profile'
+6. Run the simulator
 	$ roscore &
 	$ rosrun stage_ros stageros $(rospack find assignment1)/world/exercise.world
 
-2. Go to the workspace /juri-ros-ws/my_ros_ws/
-
-3. Run the service node
+7. Run the service node
 	$ rosrun assignment1_srv assignment1_srv
 
-4. Run the First node 
+8. Run the First node 
 	$ rosrun assignment1 assignment1
 
 ## Link

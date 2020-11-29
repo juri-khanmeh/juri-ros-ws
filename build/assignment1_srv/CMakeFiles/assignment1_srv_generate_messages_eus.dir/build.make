@@ -43,32 +43,32 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/my_ros_ws/src
+CMAKE_SOURCE_DIR = /home/juri_ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/my_ros_ws/build
+CMAKE_BINARY_DIR = /home/juri_ros_ws/build
 
 # Utility rule file for assignment1_srv_generate_messages_eus.
 
 # Include the progress variables for this target.
 include assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/progress.make
 
-assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus: /home/my_ros_ws/devel/share/roseus/ros/assignment1_srv/srv/Rand_Target.l
-assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus: /home/my_ros_ws/devel/share/roseus/ros/assignment1_srv/manifest.l
+assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus: /home/juri_ros_ws/devel/share/roseus/ros/assignment1_srv/srv/Rand_Target.l
+assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus: /home/juri_ros_ws/devel/share/roseus/ros/assignment1_srv/manifest.l
 
 
-/home/my_ros_ws/devel/share/roseus/ros/assignment1_srv/srv/Rand_Target.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/my_ros_ws/devel/share/roseus/ros/assignment1_srv/srv/Rand_Target.l: /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from assignment1_srv/Rand_Target.srv"
-	cd /home/my_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv -p assignment1_srv -o /home/my_ros_ws/devel/share/roseus/ros/assignment1_srv/srv
+/home/juri_ros_ws/devel/share/roseus/ros/assignment1_srv/srv/Rand_Target.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/juri_ros_ws/devel/share/roseus/ros/assignment1_srv/srv/Rand_Target.l: /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from assignment1_srv/Rand_Target.srv"
+	cd /home/juri_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv -p assignment1_srv -o /home/juri_ros_ws/devel/share/roseus/ros/assignment1_srv/srv
 
-/home/my_ros_ws/devel/share/roseus/ros/assignment1_srv/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for assignment1_srv"
-	cd /home/my_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/my_ros_ws/devel/share/roseus/ros/assignment1_srv assignment1_srv
+/home/juri_ros_ws/devel/share/roseus/ros/assignment1_srv/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for assignment1_srv"
+	cd /home/juri_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/juri_ros_ws/devel/share/roseus/ros/assignment1_srv assignment1_srv
 
 assignment1_srv_generate_messages_eus: assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus
-assignment1_srv_generate_messages_eus: /home/my_ros_ws/devel/share/roseus/ros/assignment1_srv/srv/Rand_Target.l
-assignment1_srv_generate_messages_eus: /home/my_ros_ws/devel/share/roseus/ros/assignment1_srv/manifest.l
+assignment1_srv_generate_messages_eus: /home/juri_ros_ws/devel/share/roseus/ros/assignment1_srv/srv/Rand_Target.l
+assignment1_srv_generate_messages_eus: /home/juri_ros_ws/devel/share/roseus/ros/assignment1_srv/manifest.l
 assignment1_srv_generate_messages_eus: assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/build.make
 
 .PHONY : assignment1_srv_generate_messages_eus
@@ -79,10 +79,10 @@ assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/build: assi
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/build
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/clean:
-	cd /home/my_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_srv_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/juri_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_srv_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/clean
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/depend:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/my_ros_ws/src /home/my_ros_ws/src/assignment1_srv /home/my_ros_ws/build /home/my_ros_ws/build/assignment1_srv /home/my_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juri_ros_ws/src /home/juri_ros_ws/src/assignment1_srv /home/juri_ros_ws/build /home/juri_ros_ws/build/assignment1_srv /home/juri_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/depend
 

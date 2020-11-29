@@ -1,8 +1,8 @@
-prefix=/home/my_ros_ws/devel
+prefix=/home/juri_ros_ws/devel
 
 Name: assignment1_srv
 Description: Description of assignment1_srv
 Version: 0.0.0
-Cflags: -I/home/my_ros_ws/devel/include
-Libs: -L/home/my_ros_ws/devel/lib 
+Cflags: -I/home/juri_ros_ws/devel/include
+Libs: -L/home/juri_ros_ws/devel/lib 
 Requires: roscpp message_runtime

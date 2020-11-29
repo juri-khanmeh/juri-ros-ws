@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv"
+services_str = "/home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv"
 pkg_name = "assignment1_srv"
 dependencies_str = ""
 langs = "gencpp;geneus;genjava;genlisp;gennodejs;genpy"

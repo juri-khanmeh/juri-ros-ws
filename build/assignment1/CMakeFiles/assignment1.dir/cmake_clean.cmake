@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/assignment1.dir/src/holo_robot.cpp.o"
-  "/home/my_ros_ws/devel/lib/assignment1/assignment1.pdb"
-  "/home/my_ros_ws/devel/lib/assignment1/assignment1"
+  "/home/juri_ros_ws/devel/lib/assignment1/assignment1.pdb"
+  "/home/juri_ros_ws/devel/lib/assignment1/assignment1"
 )
 
 # Per-language clean rules from dependency scanning.

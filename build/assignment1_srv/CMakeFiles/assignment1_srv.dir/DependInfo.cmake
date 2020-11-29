@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/my_ros_ws/src/assignment1_srv/src/randTarget_server.cpp" "/home/my_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv.dir/src/randTarget_server.cpp.o"
+  "/home/juri_ros_ws/src/assignment1_srv/src/randTarget_server.cpp" "/home/juri_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv.dir/src/randTarget_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/my_ros_ws/devel/include"
+  "/home/juri_ros_ws/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

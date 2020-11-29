@@ -43,28 +43,28 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/my_ros_ws/src
+CMAKE_SOURCE_DIR = /home/juri_ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/my_ros_ws/build
+CMAKE_BINARY_DIR = /home/juri_ros_ws/build
 
 # Utility rule file for assignment1_srv_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/progress.make
 
-assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp: /home/my_ros_ws/devel/include/assignment1_srv/Rand_Target.h
+assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp: /home/juri_ros_ws/devel/include/assignment1_srv/Rand_Target.h
 
 
-/home/my_ros_ws/devel/include/assignment1_srv/Rand_Target.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/my_ros_ws/devel/include/assignment1_srv/Rand_Target.h: /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
-/home/my_ros_ws/devel/include/assignment1_srv/Rand_Target.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/my_ros_ws/devel/include/assignment1_srv/Rand_Target.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from assignment1_srv/Rand_Target.srv"
-	cd /home/my_ros_ws/src/assignment1_srv && /home/my_ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv -p assignment1_srv -o /home/my_ros_ws/devel/include/assignment1_srv -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/juri_ros_ws/devel/include/assignment1_srv/Rand_Target.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/juri_ros_ws/devel/include/assignment1_srv/Rand_Target.h: /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
+/home/juri_ros_ws/devel/include/assignment1_srv/Rand_Target.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/juri_ros_ws/devel/include/assignment1_srv/Rand_Target.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from assignment1_srv/Rand_Target.srv"
+	cd /home/juri_ros_ws/src/assignment1_srv && /home/juri_ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv -p assignment1_srv -o /home/juri_ros_ws/devel/include/assignment1_srv -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 assignment1_srv_generate_messages_cpp: assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp
-assignment1_srv_generate_messages_cpp: /home/my_ros_ws/devel/include/assignment1_srv/Rand_Target.h
+assignment1_srv_generate_messages_cpp: /home/juri_ros_ws/devel/include/assignment1_srv/Rand_Target.h
 assignment1_srv_generate_messages_cpp: assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/build.make
 
 .PHONY : assignment1_srv_generate_messages_cpp
@@ -75,10 +75,10 @@ assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/build: assi
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/build
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/clean:
-	cd /home/my_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_srv_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/juri_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_srv_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/clean
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/depend:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/my_ros_ws/src /home/my_ros_ws/src/assignment1_srv /home/my_ros_ws/build /home/my_ros_ws/build/assignment1_srv /home/my_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juri_ros_ws/src /home/juri_ros_ws/src/assignment1_srv /home/juri_ros_ws/build /home/juri_ros_ws/build/assignment1_srv /home/juri_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/depend
 

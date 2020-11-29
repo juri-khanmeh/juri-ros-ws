@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/my_ros_ws/src
+CMAKE_SOURCE_DIR = /home/juri_ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/my_ros_ws/build
+CMAKE_BINARY_DIR = /home/juri_ros_ws/build
 
 # Include any dependencies generated for this target.
 include assignment1/CMakeFiles/assignment1.dir/depend.make
@@ -58,17 +58,17 @@ include assignment1/CMakeFiles/assignment1.dir/progress.make
 include assignment1/CMakeFiles/assignment1.dir/flags.make
 
 assignment1/CMakeFiles/assignment1.dir/src/holo_robot.cpp.o: assignment1/CMakeFiles/assignment1.dir/flags.make
-assignment1/CMakeFiles/assignment1.dir/src/holo_robot.cpp.o: /home/my_ros_ws/src/assignment1/src/holo_robot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object assignment1/CMakeFiles/assignment1.dir/src/holo_robot.cpp.o"
-	cd /home/my_ros_ws/build/assignment1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment1.dir/src/holo_robot.cpp.o -c /home/my_ros_ws/src/assignment1/src/holo_robot.cpp
+assignment1/CMakeFiles/assignment1.dir/src/holo_robot.cpp.o: /home/juri_ros_ws/src/assignment1/src/holo_robot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object assignment1/CMakeFiles/assignment1.dir/src/holo_robot.cpp.o"
+	cd /home/juri_ros_ws/build/assignment1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment1.dir/src/holo_robot.cpp.o -c /home/juri_ros_ws/src/assignment1/src/holo_robot.cpp
 
 assignment1/CMakeFiles/assignment1.dir/src/holo_robot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment1.dir/src/holo_robot.cpp.i"
-	cd /home/my_ros_ws/build/assignment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/my_ros_ws/src/assignment1/src/holo_robot.cpp > CMakeFiles/assignment1.dir/src/holo_robot.cpp.i
+	cd /home/juri_ros_ws/build/assignment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juri_ros_ws/src/assignment1/src/holo_robot.cpp > CMakeFiles/assignment1.dir/src/holo_robot.cpp.i
 
 assignment1/CMakeFiles/assignment1.dir/src/holo_robot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment1.dir/src/holo_robot.cpp.s"
-	cd /home/my_ros_ws/build/assignment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/my_ros_ws/src/assignment1/src/holo_robot.cpp -o CMakeFiles/assignment1.dir/src/holo_robot.cpp.s
+	cd /home/juri_ros_ws/build/assignment1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juri_ros_ws/src/assignment1/src/holo_robot.cpp -o CMakeFiles/assignment1.dir/src/holo_robot.cpp.s
 
 assignment1/CMakeFiles/assignment1.dir/src/holo_robot.cpp.o.requires:
 
@@ -88,33 +88,33 @@ assignment1_OBJECTS = \
 # External object files for target assignment1
 assignment1_EXTERNAL_OBJECTS =
 
-/home/my_ros_ws/devel/lib/assignment1/assignment1: assignment1/CMakeFiles/assignment1.dir/src/holo_robot.cpp.o
-/home/my_ros_ws/devel/lib/assignment1/assignment1: assignment1/CMakeFiles/assignment1.dir/build.make
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/libroscpp.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/librosconsole.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/librostime.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/libcpp_common.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/my_ros_ws/devel/lib/assignment1/assignment1: assignment1/CMakeFiles/assignment1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/my_ros_ws/devel/lib/assignment1/assignment1"
-	cd /home/my_ros_ws/build/assignment1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment1.dir/link.txt --verbose=$(VERBOSE)
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: assignment1/CMakeFiles/assignment1.dir/src/holo_robot.cpp.o
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: assignment1/CMakeFiles/assignment1.dir/build.make
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/libroscpp.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/librosconsole.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/librostime.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /opt/ros/kinetic/lib/libcpp_common.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/juri_ros_ws/devel/lib/assignment1/assignment1: assignment1/CMakeFiles/assignment1.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/juri_ros_ws/devel/lib/assignment1/assignment1"
+	cd /home/juri_ros_ws/build/assignment1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-assignment1/CMakeFiles/assignment1.dir/build: /home/my_ros_ws/devel/lib/assignment1/assignment1
+assignment1/CMakeFiles/assignment1.dir/build: /home/juri_ros_ws/devel/lib/assignment1/assignment1
 
 .PHONY : assignment1/CMakeFiles/assignment1.dir/build
 
@@ -123,10 +123,10 @@ assignment1/CMakeFiles/assignment1.dir/requires: assignment1/CMakeFiles/assignme
 .PHONY : assignment1/CMakeFiles/assignment1.dir/requires
 
 assignment1/CMakeFiles/assignment1.dir/clean:
-	cd /home/my_ros_ws/build/assignment1 && $(CMAKE_COMMAND) -P CMakeFiles/assignment1.dir/cmake_clean.cmake
+	cd /home/juri_ros_ws/build/assignment1 && $(CMAKE_COMMAND) -P CMakeFiles/assignment1.dir/cmake_clean.cmake
 .PHONY : assignment1/CMakeFiles/assignment1.dir/clean
 
 assignment1/CMakeFiles/assignment1.dir/depend:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/my_ros_ws/src /home/my_ros_ws/src/assignment1 /home/my_ros_ws/build /home/my_ros_ws/build/assignment1 /home/my_ros_ws/build/assignment1/CMakeFiles/assignment1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juri_ros_ws/src /home/juri_ros_ws/src/assignment1 /home/juri_ros_ws/build /home/juri_ros_ws/build/assignment1 /home/juri_ros_ws/build/assignment1/CMakeFiles/assignment1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment1/CMakeFiles/assignment1.dir/depend
 

@@ -49,7 +49,7 @@ ext {
 task generateSources (type: JavaExec) {
     description = "Generate sources for assignment1_srv"
     outputs.dir(file(generated_sources_directory))
-    args = new ArrayList<String>([generated_sources_directory, '--package-path=/home/my_ros_ws/src/assignment1_srv', 'assignment1_srv'])
+    args = new ArrayList<String>([generated_sources_directory, '--package-path=/home/juri_ros_ws/src/assignment1_srv', 'assignment1_srv'])
     classpath = configurations.runtime
     main = 'org.ros.internal.message.GenerateInterfaces'
     tasks.compileJava.source outputs.files
@@ -88,7 +88,7 @@ task info {
         println "\nPackage Info"
         println "============\n"
         println "Name          : assignment1_srv"
-        println "Dir           : /home/my_ros_ws/src/assignment1_srv"
+        println "Dir           : /home/juri_ros_ws/src/assignment1_srv"
 
         println "\nGenerate Info"
         println "============\n"

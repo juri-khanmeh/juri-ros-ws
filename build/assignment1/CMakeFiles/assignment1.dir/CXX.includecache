@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/my_ros_ws/devel/include/assignment1_srv/Rand_Target.h
+/home/juri_ros_ws/devel/include/assignment1_srv/Rand_Target.h
 ros/service_traits.h
 -
 assignment1_srv/Rand_TargetRequest.h
@@ -14,7 +14,7 @@ assignment1_srv/Rand_TargetRequest.h
 assignment1_srv/Rand_TargetResponse.h
 -
 
-/home/my_ros_ws/devel/include/assignment1_srv/Rand_TargetRequest.h
+/home/juri_ros_ws/devel/include/assignment1_srv/Rand_TargetRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/my_ros_ws/devel/include/assignment1_srv/Rand_TargetResponse.h
+/home/juri_ros_ws/devel/include/assignment1_srv/Rand_TargetResponse.h
 string
 -
 vector
@@ -46,21 +46,21 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/my_ros_ws/src/assignment1/src/holo_robot.cpp
+/home/juri_ros_ws/src/assignment1/src/holo_robot.cpp
 ros/ros.h
-/home/my_ros_ws/src/assignment1/src/ros/ros.h
+/home/juri_ros_ws/src/assignment1/src/ros/ros.h
 geometry_msgs/Twist.h
-/home/my_ros_ws/src/assignment1/src/geometry_msgs/Twist.h
+/home/juri_ros_ws/src/assignment1/src/geometry_msgs/Twist.h
 nav_msgs/Odometry.h
-/home/my_ros_ws/src/assignment1/src/nav_msgs/Odometry.h
+/home/juri_ros_ws/src/assignment1/src/nav_msgs/Odometry.h
 geometry_msgs/PoseWithCovariance.h
-/home/my_ros_ws/src/assignment1/src/geometry_msgs/PoseWithCovariance.h
+/home/juri_ros_ws/src/assignment1/src/geometry_msgs/PoseWithCovariance.h
 geometry_msgs/Pose.h
-/home/my_ros_ws/src/assignment1/src/geometry_msgs/Pose.h
+/home/juri_ros_ws/src/assignment1/src/geometry_msgs/Pose.h
 geometry_msgs/Point.h
-/home/my_ros_ws/src/assignment1/src/geometry_msgs/Point.h
+/home/juri_ros_ws/src/assignment1/src/geometry_msgs/Point.h
 assignment1_srv/Rand_Target.h
-/home/my_ros_ws/src/assignment1/src/assignment1_srv/Rand_Target.h
+/home/juri_ros_ws/src/assignment1/src/assignment1_srv/Rand_Target.h
 sstream
 -
 iostream

@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/my_ros_ws/src
+CMAKE_SOURCE_DIR = /home/juri_ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/my_ros_ws/build
+CMAKE_BINARY_DIR = /home/juri_ros_ws/build
 
 # Utility rule file for assignment1_srv_generate_messages_py.
 
 # Include the progress variables for this target.
 include assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/progress.make
 
-assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py: /home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/_Rand_Target.py
-assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py: /home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/__init__.py
+assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py: /home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/_Rand_Target.py
+assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py: /home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/__init__.py
 
 
-/home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/_Rand_Target.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/_Rand_Target.py: /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV assignment1_srv/Rand_Target"
-	cd /home/my_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv -p assignment1_srv -o /home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv
+/home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/_Rand_Target.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/_Rand_Target.py: /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV assignment1_srv/Rand_Target"
+	cd /home/juri_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv -p assignment1_srv -o /home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv
 
-/home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/__init__.py: /home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/_Rand_Target.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for assignment1_srv"
-	cd /home/my_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv --initpy
+/home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/__init__.py: /home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/_Rand_Target.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for assignment1_srv"
+	cd /home/juri_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv --initpy
 
 assignment1_srv_generate_messages_py: assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py
-assignment1_srv_generate_messages_py: /home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/_Rand_Target.py
-assignment1_srv_generate_messages_py: /home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/__init__.py
+assignment1_srv_generate_messages_py: /home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/_Rand_Target.py
+assignment1_srv_generate_messages_py: /home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv/srv/__init__.py
 assignment1_srv_generate_messages_py: assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/build.make
 
 .PHONY : assignment1_srv_generate_messages_py
@@ -80,10 +80,10 @@ assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/build: assig
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/build
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/clean:
-	cd /home/my_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_srv_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/juri_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_srv_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/clean
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/depend:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/my_ros_ws/src /home/my_ros_ws/src/assignment1_srv /home/my_ros_ws/build /home/my_ros_ws/build/assignment1_srv /home/my_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juri_ros_ws/src /home/juri_ros_ws/src/assignment1_srv /home/juri_ros_ws/build /home/juri_ros_ws/build/assignment1_srv /home/juri_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/depend
 

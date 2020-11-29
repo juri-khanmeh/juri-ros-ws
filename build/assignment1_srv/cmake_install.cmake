@@ -1,8 +1,8 @@
-# Install script for directory: /home/my_ros_ws/src/assignment1_srv
+# Install script for directory: /home/juri_ros_ws/src/assignment1_srv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/my_ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/juri_ros_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,53 +33,53 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1_srv/srv" TYPE FILE FILES "/home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1_srv/srv" TYPE FILE FILES "/home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1_srv/cmake" TYPE FILE FILES "/home/my_ros_ws/build/assignment1_srv/catkin_generated/installspace/assignment1_srv-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1_srv/cmake" TYPE FILE FILES "/home/juri_ros_ws/build/assignment1_srv/catkin_generated/installspace/assignment1_srv-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/my_ros_ws/devel/include/assignment1_srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/juri_ros_ws/devel/include/assignment1_srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/my_ros_ws/devel/share/roseus/ros/assignment1_srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/juri_ros_ws/devel/share/roseus/ros/assignment1_srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/my_ros_ws/devel/share/common-lisp/ros/assignment1_srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/juri_ros_ws/devel/share/common-lisp/ros/assignment1_srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/my_ros_ws/devel/share/gennodejs/ros/assignment1_srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/juri_ros_ws/devel/share/gennodejs/ros/assignment1_srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/my_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/juri_ros_ws/devel/lib/python2.7/dist-packages/assignment1_srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/my_ros_ws/build/assignment1_srv/catkin_generated/installspace/assignment1_srv.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/juri_ros_ws/build/assignment1_srv/catkin_generated/installspace/assignment1_srv.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1_srv/cmake" TYPE FILE FILES "/home/my_ros_ws/build/assignment1_srv/catkin_generated/installspace/assignment1_srv-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1_srv/cmake" TYPE FILE FILES "/home/juri_ros_ws/build/assignment1_srv/catkin_generated/installspace/assignment1_srv-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1_srv/cmake" TYPE FILE FILES
-    "/home/my_ros_ws/build/assignment1_srv/catkin_generated/installspace/assignment1_srvConfig.cmake"
-    "/home/my_ros_ws/build/assignment1_srv/catkin_generated/installspace/assignment1_srvConfig-version.cmake"
+    "/home/juri_ros_ws/build/assignment1_srv/catkin_generated/installspace/assignment1_srvConfig.cmake"
+    "/home/juri_ros_ws/build/assignment1_srv/catkin_generated/installspace/assignment1_srvConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1_srv" TYPE FILE FILES "/home/my_ros_ws/src/assignment1_srv/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment1_srv" TYPE FILE FILES "/home/juri_ros_ws/src/assignment1_srv/package.xml")
 endif()
 

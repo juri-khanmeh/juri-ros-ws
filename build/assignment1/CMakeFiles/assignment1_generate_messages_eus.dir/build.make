@@ -43,25 +43,25 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/my_ros_ws/src
+CMAKE_SOURCE_DIR = /home/juri_ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/my_ros_ws/build
+CMAKE_BINARY_DIR = /home/juri_ros_ws/build
 
 # Utility rule file for assignment1_generate_messages_eus.
 
 # Include the progress variables for this target.
 include assignment1/CMakeFiles/assignment1_generate_messages_eus.dir/progress.make
 
-assignment1/CMakeFiles/assignment1_generate_messages_eus: /home/my_ros_ws/devel/share/roseus/ros/assignment1/manifest.l
+assignment1/CMakeFiles/assignment1_generate_messages_eus: /home/juri_ros_ws/devel/share/roseus/ros/assignment1/manifest.l
 
 
-/home/my_ros_ws/devel/share/roseus/ros/assignment1/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for assignment1"
-	cd /home/my_ros_ws/build/assignment1 && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/my_ros_ws/devel/share/roseus/ros/assignment1 assignment1 std_msgs
+/home/juri_ros_ws/devel/share/roseus/ros/assignment1/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for assignment1"
+	cd /home/juri_ros_ws/build/assignment1 && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/juri_ros_ws/devel/share/roseus/ros/assignment1 assignment1 std_msgs
 
 assignment1_generate_messages_eus: assignment1/CMakeFiles/assignment1_generate_messages_eus
-assignment1_generate_messages_eus: /home/my_ros_ws/devel/share/roseus/ros/assignment1/manifest.l
+assignment1_generate_messages_eus: /home/juri_ros_ws/devel/share/roseus/ros/assignment1/manifest.l
 assignment1_generate_messages_eus: assignment1/CMakeFiles/assignment1_generate_messages_eus.dir/build.make
 
 .PHONY : assignment1_generate_messages_eus
@@ -72,10 +72,10 @@ assignment1/CMakeFiles/assignment1_generate_messages_eus.dir/build: assignment1_
 .PHONY : assignment1/CMakeFiles/assignment1_generate_messages_eus.dir/build
 
 assignment1/CMakeFiles/assignment1_generate_messages_eus.dir/clean:
-	cd /home/my_ros_ws/build/assignment1 && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/juri_ros_ws/build/assignment1 && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : assignment1/CMakeFiles/assignment1_generate_messages_eus.dir/clean
 
 assignment1/CMakeFiles/assignment1_generate_messages_eus.dir/depend:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/my_ros_ws/src /home/my_ros_ws/src/assignment1 /home/my_ros_ws/build /home/my_ros_ws/build/assignment1 /home/my_ros_ws/build/assignment1/CMakeFiles/assignment1_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juri_ros_ws/src /home/juri_ros_ws/src/assignment1 /home/juri_ros_ws/build /home/juri_ros_ws/build/assignment1 /home/juri_ros_ws/build/assignment1/CMakeFiles/assignment1_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment1/CMakeFiles/assignment1_generate_messages_eus.dir/depend
 

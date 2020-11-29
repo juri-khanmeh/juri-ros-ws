@@ -36,5 +36,11 @@
       <version>0.0.0</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>org.ros.rosjava_messages</groupId>
+      <artifactId>nav_msgs</artifactId>
+      <version>1.12.7</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
 </project>

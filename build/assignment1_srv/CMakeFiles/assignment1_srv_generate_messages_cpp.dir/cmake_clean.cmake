@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/assignment1_srv_generate_messages_cpp"
-  "/home/my_ros_ws/devel/include/assignment1_srv/Rand_Target.h"
+  "/home/juri_ros_ws/devel/include/assignment1_srv/Rand_Target.h"
 )
 
 # Per-language clean rules from dependency scanning.

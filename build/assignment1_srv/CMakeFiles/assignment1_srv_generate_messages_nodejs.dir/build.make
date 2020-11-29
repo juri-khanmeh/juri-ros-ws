@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/my_ros_ws/src
+CMAKE_SOURCE_DIR = /home/juri_ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/my_ros_ws/build
+CMAKE_BINARY_DIR = /home/juri_ros_ws/build
 
 # Utility rule file for assignment1_srv_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/progress.make
 
-assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs: /home/my_ros_ws/devel/share/gennodejs/ros/assignment1_srv/srv/Rand_Target.js
+assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs: /home/juri_ros_ws/devel/share/gennodejs/ros/assignment1_srv/srv/Rand_Target.js
 
 
-/home/my_ros_ws/devel/share/gennodejs/ros/assignment1_srv/srv/Rand_Target.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/my_ros_ws/devel/share/gennodejs/ros/assignment1_srv/srv/Rand_Target.js: /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/my_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from assignment1_srv/Rand_Target.srv"
-	cd /home/my_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/my_ros_ws/src/assignment1_srv/srv/Rand_Target.srv -p assignment1_srv -o /home/my_ros_ws/devel/share/gennodejs/ros/assignment1_srv/srv
+/home/juri_ros_ws/devel/share/gennodejs/ros/assignment1_srv/srv/Rand_Target.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/juri_ros_ws/devel/share/gennodejs/ros/assignment1_srv/srv/Rand_Target.js: /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juri_ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from assignment1_srv/Rand_Target.srv"
+	cd /home/juri_ros_ws/build/assignment1_srv && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/juri_ros_ws/src/assignment1_srv/srv/Rand_Target.srv -p assignment1_srv -o /home/juri_ros_ws/devel/share/gennodejs/ros/assignment1_srv/srv
 
 assignment1_srv_generate_messages_nodejs: assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs
-assignment1_srv_generate_messages_nodejs: /home/my_ros_ws/devel/share/gennodejs/ros/assignment1_srv/srv/Rand_Target.js
+assignment1_srv_generate_messages_nodejs: /home/juri_ros_ws/devel/share/gennodejs/ros/assignment1_srv/srv/Rand_Target.js
 assignment1_srv_generate_messages_nodejs: assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/build.make
 
 .PHONY : assignment1_srv_generate_messages_nodejs
@@ -73,10 +73,10 @@ assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/build: a
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/build
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/clean:
-	cd /home/my_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/juri_ros_ws/build/assignment1_srv && $(CMAKE_COMMAND) -P CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/clean
 
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/depend:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/my_ros_ws/src /home/my_ros_ws/src/assignment1_srv /home/my_ros_ws/build /home/my_ros_ws/build/assignment1_srv /home/my_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juri_ros_ws/src /home/juri_ros_ws/src/assignment1_srv /home/juri_ros_ws/build /home/juri_ros_ws/build/assignment1_srv /home/juri_ros_ws/build/assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/depend
 

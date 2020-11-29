@@ -1,8 +1,0 @@
-prefix=/home/my_ros_ws/devel
-
-Name: turtlebot_controller
-Description: Description of turtlebot_controller
-Version: 0.0.0
-Cflags: -I/home/my_ros_ws/devel/include
-Libs: -L/home/my_ros_ws/devel/lib 
-Requires: 

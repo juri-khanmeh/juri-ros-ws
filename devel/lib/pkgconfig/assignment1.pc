@@ -1,8 +1,8 @@
-prefix=/home/my_ros_ws/devel
+prefix=/home/juri_ros_ws/devel
 
 Name: assignment1
 Description: Description of assignment1
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/my_ros_ws/devel/lib 
+Libs: -L/home/juri_ros_ws/devel/lib 
 Requires: geometry_msgs roscpp rospy message_generation nav_msgs assignment1_srv std_msgs

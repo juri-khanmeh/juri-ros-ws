@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/my_ros_ws/src
+CMAKE_SOURCE_DIR = /home/juri_ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/my_ros_ws/build
+CMAKE_BINARY_DIR = /home/juri_ros_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/my_ros_ws/build/CMakeFiles /home/my_ros_ws/build/assignment1_srv/CMakeFiles/progress.marks
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/my_ros_ws/build/CMakeFiles 0
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/juri_ros_ws/build/CMakeFiles /home/juri_ros_ws/build/assignment1_srv/CMakeFiles/progress.marks
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juri_ros_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/clean
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/preinstall
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/preinstall
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ assignment1_srv: assignment1_srv/CMakeFiles/assignment1_srv.dir/rule
 
 # fast build rule for target.
 assignment1_srv/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv.dir/build
 .PHONY : assignment1_srv/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_genpy.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_genpy.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_genpy.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_genpy.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ assignment1_srv_genpy: assignment1_srv/CMakeFiles/assignment1_srv_genpy.dir/rule
 
 # fast build rule for target.
 assignment1_srv_genpy/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_genpy.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_genpy.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_genpy.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_genpy.dir/build
 .PHONY : assignment1_srv_genpy/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ assignment1_srv_generate_messages_py: assignment1_srv/CMakeFiles/assignment1_srv
 
 # fast build rule for target.
 assignment1_srv_generate_messages_py/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_py.dir/build
 .PHONY : assignment1_srv_generate_messages_py/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_genlisp.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_genlisp.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_genlisp.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_genlisp.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ assignment1_srv_genlisp: assignment1_srv/CMakeFiles/assignment1_srv_genlisp.dir/
 
 # fast build rule for target.
 assignment1_srv_genlisp/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_genlisp.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_genlisp.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_genlisp.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_genlisp.dir/build
 .PHONY : assignment1_srv_genlisp/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ assignment1_srv_generate_messages_java: assignment1_srv/CMakeFiles/assignment1_s
 
 # fast build rule for target.
 assignment1_srv_generate_messages_java/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java.dir/build
 .PHONY : assignment1_srv_generate_messages_java/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ assignment1_srv_generate_messages_java_gradle: assignment1_srv/CMakeFiles/assign
 
 # fast build rule for target.
 assignment1_srv_generate_messages_java_gradle/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_java_gradle.dir/build
 .PHONY : assignment1_srv_generate_messages_java_gradle/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ roscpp_generate_messages_py: assignment1_srv/CMakeFiles/roscpp_generate_messages
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/roscpp_generate_messages_py.dir/build.make assignment1_srv/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/roscpp_generate_messages_py.dir/build.make assignment1_srv/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ rosgraph_msgs_generate_messages_eus: assignment1_srv/CMakeFiles/rosgraph_msgs_ge
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ roscpp_generate_messages_eus: assignment1_srv/CMakeFiles/roscpp_generate_message
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/roscpp_generate_messages_eus.dir/build.make assignment1_srv/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/roscpp_generate_messages_eus.dir/build.make assignment1_srv/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ rosgraph_msgs_generate_messages_nodejs: assignment1_srv/CMakeFiles/rosgraph_msgs
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_gennodejs.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_gennodejs.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_gennodejs.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ assignment1_srv_gennodejs: assignment1_srv/CMakeFiles/assignment1_srv_gennodejs.
 
 # fast build rule for target.
 assignment1_srv_gennodejs/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_gennodejs.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_gennodejs.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_gennodejs.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_gennodejs.dir/build
 .PHONY : assignment1_srv_gennodejs/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ roscpp_generate_messages_cpp: assignment1_srv/CMakeFiles/roscpp_generate_message
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make assignment1_srv/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make assignment1_srv/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ rosgraph_msgs_generate_messages_cpp: assignment1_srv/CMakeFiles/rosgraph_msgs_ge
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ std_msgs_generate_messages_cpp: assignment1_srv/CMakeFiles/std_msgs_generate_mes
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make assignment1_srv/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make assignment1_srv/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ assignment1_srv_generate_messages_eus: assignment1_srv/CMakeFiles/assignment1_sr
 
 # fast build rule for target.
 assignment1_srv_generate_messages_eus/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_eus.dir/build
 .PHONY : assignment1_srv_generate_messages_eus/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ _catkin_empty_exported_target: assignment1_srv/CMakeFiles/_catkin_empty_exported
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/_catkin_empty_exported_target.dir/build.make assignment1_srv/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/_catkin_empty_exported_target.dir/build.make assignment1_srv/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ std_msgs_generate_messages_nodejs: assignment1_srv/CMakeFiles/std_msgs_generate_
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make assignment1_srv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make assignment1_srv/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_genjava.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_genjava.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_genjava.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_genjava.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ assignment1_srv_genjava: assignment1_srv/CMakeFiles/assignment1_srv_genjava.dir/
 
 # fast build rule for target.
 assignment1_srv_genjava/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_genjava.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_genjava.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_genjava.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_genjava.dir/build
 .PHONY : assignment1_srv_genjava/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ rosgraph_msgs_generate_messages_lisp: assignment1_srv/CMakeFiles/rosgraph_msgs_g
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ roscpp_generate_messages_nodejs: assignment1_srv/CMakeFiles/roscpp_generate_mess
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make assignment1_srv/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make assignment1_srv/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ rosgraph_msgs_generate_messages_py: assignment1_srv/CMakeFiles/rosgraph_msgs_gen
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make assignment1_srv/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ std_msgs_generate_messages_py: assignment1_srv/CMakeFiles/std_msgs_generate_mess
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/std_msgs_generate_messages_py.dir/build.make assignment1_srv/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/std_msgs_generate_messages_py.dir/build.make assignment1_srv/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ assignment1_srv_generate_messages_nodejs: assignment1_srv/CMakeFiles/assignment1
 
 # fast build rule for target.
 assignment1_srv_generate_messages_nodejs/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_nodejs.dir/build
 .PHONY : assignment1_srv_generate_messages_nodejs/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ roscpp_generate_messages_lisp: assignment1_srv/CMakeFiles/roscpp_generate_messag
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make assignment1_srv/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make assignment1_srv/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -537,12 +537,12 @@ std_msgs_generate_messages_eus: assignment1_srv/CMakeFiles/std_msgs_generate_mes
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make assignment1_srv/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make assignment1_srv/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_geneus.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_geneus.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_geneus.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_geneus.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ assignment1_srv_geneus: assignment1_srv/CMakeFiles/assignment1_srv_geneus.dir/ru
 
 # fast build rule for target.
 assignment1_srv_geneus/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_geneus.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_geneus.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_geneus.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_geneus.dir/build
 .PHONY : assignment1_srv_geneus/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -567,12 +567,12 @@ std_msgs_generate_messages_lisp: assignment1_srv/CMakeFiles/std_msgs_generate_me
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make assignment1_srv/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make assignment1_srv/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -582,12 +582,12 @@ assignment1_srv_generate_messages: assignment1_srv/CMakeFiles/assignment1_srv_ge
 
 # fast build rule for target.
 assignment1_srv_generate_messages/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages.dir/build
 .PHONY : assignment1_srv_generate_messages/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/rule
 
 # Convenience name for target.
@@ -597,12 +597,12 @@ _assignment1_srv_generate_messages_check_deps_Rand_Target: assignment1_srv/CMake
 
 # fast build rule for target.
 _assignment1_srv_generate_messages_check_deps_Rand_Target/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/build.make assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/build.make assignment1_srv/CMakeFiles/_assignment1_srv_generate_messages_check_deps_Rand_Target.dir/build
 .PHONY : _assignment1_srv_generate_messages_check_deps_Rand_Target/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_lisp.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_lisp.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_lisp.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -612,12 +612,12 @@ assignment1_srv_generate_messages_lisp: assignment1_srv/CMakeFiles/assignment1_s
 
 # fast build rule for target.
 assignment1_srv_generate_messages_lisp/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_lisp.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_lisp.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_lisp.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_lisp.dir/build
 .PHONY : assignment1_srv_generate_messages_lisp/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -627,12 +627,12 @@ assignment1_srv_generate_messages_cpp: assignment1_srv/CMakeFiles/assignment1_sr
 
 # fast build rule for target.
 assignment1_srv_generate_messages_cpp/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_generate_messages_cpp.dir/build
 .PHONY : assignment1_srv_generate_messages_cpp/fast
 
 # Convenience name for target.
 assignment1_srv/CMakeFiles/assignment1_srv_gencpp.dir/rule:
-	cd /home/my_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_gencpp.dir/rule
+	cd /home/juri_ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 assignment1_srv/CMakeFiles/assignment1_srv_gencpp.dir/rule
 .PHONY : assignment1_srv/CMakeFiles/assignment1_srv_gencpp.dir/rule
 
 # Convenience name for target.
@@ -642,7 +642,7 @@ assignment1_srv_gencpp: assignment1_srv/CMakeFiles/assignment1_srv_gencpp.dir/ru
 
 # fast build rule for target.
 assignment1_srv_gencpp/fast:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_gencpp.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_gencpp.dir/build
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv_gencpp.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv_gencpp.dir/build
 .PHONY : assignment1_srv_gencpp/fast
 
 src/randTarget_server.o: src/randTarget_server.cpp.o
@@ -651,7 +651,7 @@ src/randTarget_server.o: src/randTarget_server.cpp.o
 
 # target to build an object file
 src/randTarget_server.cpp.o:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv.dir/src/randTarget_server.cpp.o
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv.dir/src/randTarget_server.cpp.o
 .PHONY : src/randTarget_server.cpp.o
 
 src/randTarget_server.i: src/randTarget_server.cpp.i
@@ -660,7 +660,7 @@ src/randTarget_server.i: src/randTarget_server.cpp.i
 
 # target to preprocess a source file
 src/randTarget_server.cpp.i:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv.dir/src/randTarget_server.cpp.i
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv.dir/src/randTarget_server.cpp.i
 .PHONY : src/randTarget_server.cpp.i
 
 src/randTarget_server.s: src/randTarget_server.cpp.s
@@ -669,7 +669,7 @@ src/randTarget_server.s: src/randTarget_server.cpp.s
 
 # target to generate assembly for a file
 src/randTarget_server.cpp.s:
-	cd /home/my_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv.dir/src/randTarget_server.cpp.s
+	cd /home/juri_ros_ws/build && $(MAKE) -f assignment1_srv/CMakeFiles/assignment1_srv.dir/build.make assignment1_srv/CMakeFiles/assignment1_srv.dir/src/randTarget_server.cpp.s
 .PHONY : src/randTarget_server.cpp.s
 
 # Help Target
@@ -731,6 +731,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

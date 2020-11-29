@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/my_ros_ws/src
+CMAKE_SOURCE_DIR = /home/juri_ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/my_ros_ws/build
+CMAKE_BINARY_DIR = /home/juri_ros_ws/build
 
 # Utility rule file for nav_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ assignment1/CMakeFiles/nav_msgs_generate_messages_py.dir/build: nav_msgs_generat
 .PHONY : assignment1/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 
 assignment1/CMakeFiles/nav_msgs_generate_messages_py.dir/clean:
-	cd /home/my_ros_ws/build/assignment1 && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/juri_ros_ws/build/assignment1 && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : assignment1/CMakeFiles/nav_msgs_generate_messages_py.dir/clean
 
 assignment1/CMakeFiles/nav_msgs_generate_messages_py.dir/depend:
-	cd /home/my_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/my_ros_ws/src /home/my_ros_ws/src/assignment1 /home/my_ros_ws/build /home/my_ros_ws/build/assignment1 /home/my_ros_ws/build/assignment1/CMakeFiles/nav_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juri_ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juri_ros_ws/src /home/juri_ros_ws/src/assignment1 /home/juri_ros_ws/build /home/juri_ros_ws/build/assignment1 /home/juri_ros_ws/build/assignment1/CMakeFiles/nav_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : assignment1/CMakeFiles/nav_msgs_generate_messages_py.dir/depend
 
