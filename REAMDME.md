@@ -30,8 +30,8 @@ with a simple 2d simulator.
 
 ## How to run the code
 1. After git clone, move repository to /home/
-2. Add the line 'source /home/juri_rose_ws/devel/setup.bash' in your .bashrc file.
-3. Change the directory to the workspace /home/juri_rose_ws/
+2. Add the line 'source /home/juri-rose-ws/devel/setup.bash' in your .bashrc file.
+3. Change the directory to the workspace /home/juri-rose-ws/
 4. Build the packages 'catkin_make'
 5. Refresh 'rospack profile'
 6. Run the simulator
